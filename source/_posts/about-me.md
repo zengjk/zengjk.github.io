@@ -1,18 +1,23 @@
 ---
 title: About me
-date: 2022-11-10 17:54:09
+date: 2025-03-23 17:54:09
 tags:
 academia: true
 ---
-## Wassup!
-I'm a quantum computing scientist currently working at Shenzhen Institute of Quantum Science & Engineering ([SIQSE](https://siqse.sustech.edu.cn/)). My research focus on the theoretical side of quantum control, including quantum dynamics, dynamically corrected gates, quantum compiling, noise characterization, etc. 
+## Greetings!
 
-Before joining SIQSE I was a senior quantum control engineer at [Q-CTRL](https://q-ctrl.com/) in LA. I received my Ph.D. in Physics from Virginia Tech (*Let's go Hokies!*), working with [Edwin Barnes](https://www1.phys.vt.edu/~efbarnes/)'s research group. My B.S. in Physics is from USTC, during which time I did a bit of undergrad research with [Chao-Yang Lu](http://staff.ustc.edu.cn/~cylu/) and [Zhenhua Qiao](http://staff.ustc.edu.cn/~qiao). I was also an undergrad summer research intern at IQC, U of Waterloo, working with [Raymond Laflamme](https://uwaterloo.ca/physics-astronomy/people-profiles/raymond-laflamme).
+ I'm a quantum computing scientist currently working at the Shenzhen International Quantum Academy ([SIQA](https://siqse.sustech.edu.cn/)). My research primarily revolves around the theoretical aspects of quantum control, encompassing quantum dynamics, dynamically corrected gates, quantum compiling, and noise characterization, among others. Nevertheless, I also have a broad interests in math-intensive areas, particularly artificial intelligence.
 
-When I am not doing physics, I am an electronic music producer/DJ under artist name **"Dr. Z"**. Influenced by artists like Tipper, Dirt Monkey, The Floozies, I tend to make tunes that have a funky, quirky, and psychedelic tone. Some of my tracks can be found on [Soundcloud](https://soundcloud.com/doczeemusic). I was also a student at [ICON Collective](https://iconcollective.edu/), an LA-based music college.
+Before joining SIQA, I held the position of a senior quantum control engineer at [Q-CTRL](https://q-ctrl.com/) in Los Angeles. I received my Ph.D. in Physics from Virginia Tech (Go Hokies!), where I worked with Prof. [Edwin Barnes](https://www1.phys.vt.edu/~efbarnes/). Prior to Ph.D., I received B.S. in Physics from USTC and had the opportunity to conduct undergraduate research under the guidance of [Chao-Yang Lu](http://staff.ustc.edu.cn/~cylu/) and [Zhenhua Qiao](http://staff.ustc.edu.cn/~qiao). I also spent a summer as a research intern at IQC, University of Waterloo, working alongside [Raymond Laflamme](https://uwaterloo.ca/physics-astronomy/people-profiles/raymond-laflamme).
+
+<!-- 
+From time to time, you might catch me not working in quantum science research, but rather engrossed in projects centered around electronic music production or spinning tunes as a DJ. Operating under the moniker  **"Dr. Z"**, I draw inspiration from artists like Tipper, Dirt Monkey, and The Floozies to create tunes that resonate with a funky, quirky, and psychedelic vibe. You can explore some of my tracks on [Soundcloud](https://soundcloud.com/doczeemusic). My passion for music also led me to [ICON Collective](https://iconcollective.edu/), an LA-based music college, where I honed my skills.
+
 
 ![Quirky Jelly!](/img/quirkyjelly.jpg)
-Meet *Quirky Jelly*, a slimy monster created by Dr. Z in a lab accident. *Quirky Jelly* is mischievous, intelligent, and loves weird funky music. Dr. Z likes Quirky Jelly so much that he decided to use the creature's look as his artist avatar.
+Allow me to introduce you to *Quirky Jelly*, a charmingly slimy monster born out of a lab accident. Quirky Jelly is mischievous, intelligent, and has a peculiar fondness for weird funky music. Such is my affection for Quirky Jelly that I adopted this delightful creature's look as my artist avatar.
+-->
+
 ---
-*I am now based in Shenzhen, China. [Hit me up](mailto:robbie.zeng@gmail.com) if you're nearby and wanna grab a coffee or something!* 😉
+*I am now based in Shenzhen, China. Feel free to [reach out](mailto:robbie.zeng@gmail.com) if you're nearby and wanna grab a coffee!*
 
