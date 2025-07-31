@@ -1,0 +1,87 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"><title>JK's Website</title><meta name="author" content="Junkai Zeng"><link rel="shortcut icon" href="/img/favicon.png"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body><header id="page_header"><div class="header_wrap"><div id="blog_name"><a class="blog_title" id="site-name" href="/">JK's Website</a></div><button class="menus_icon"><div class="navicon"></div></button><ul class="menus_items"><li class="menus_item"><a class="site-page" href="/#about-me"> About</a></li><li class="menus_item"><a class="site-page" href="/Research/"> Research</a></li><li class="menus_item"><a class="site-page" href="/Publications/"> Publications</a></li><li class="menus_item"><a class="site-page" href="/now/"> Now</a></li></ul></div></header><main id="page_main"><div class="side-card sticky"><div class="card-wrap" itemscope itemtype="http://schema.org/Person"><div class="author-avatar"><img class="avatar-img" src="/img/profile_latest.jpeg" onerror="this.onerror=null;this.src='/img/profile_latest.jpeg'" alt="avatar"></div><div class="author-discrip"><h3>Junkai Zeng</h3><p class="author-bio">Research scientist, sort of.</p></div><div class="author-links"><button class="btn m-social-links">Links</button><ul class="social-icons"><li><a class="social-icon" href="https://www.linkedin.com/in/zengjk/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li><li><a class="social-icon" href="mailto:zengjunkai@iqasz.cn" target="_blank"><i class="fas fa-envelope" aria-hidden="true"></i></a></li></ul><ul class="social-links"><li><a class="e-social-link" href="https://scholar.google.com/citations?user=jL7pw-0AAAAJ&amp;hl=en" target="_blank"><i class="fas fa-graduation-cap" aria-hidden="true"></i><span>Google Scholar</span></a></li><li><a class="e-social-link" href="https://twitter.com/jaykay_z" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i><span>Twitter</span></a></li><li><a class="e-social-link" href="https://sziqa.ac.cn/category/1044/detail/5392" target="_blank"><i class="fa fa-address-card" aria-hidden="true"></i><span>SZIQA page (Chinese)</span></a></li></ul></div><a class="cv-links" href="/attaches/CV_Zeng.pdf" target="_blank"><i class="fas fa-file-pdf" aria-hidden="true"><span>Curriculum Vitae</span></i></a></div></div><div class="page" itemscope itemtype="http://schema.org/CreativeWork"><h2 class="page-title">Research</h2><article><p><em>Last updated: 2025-07-31</em></p>
+<p><strong>Basically this is what I do</strong><br />
+It’s hard to build a quantum computer - qubits rarely do what you want
+them to do.<br />
+Qubits constantly interact with things you didn’t invite: other qubits,
+your control hardware, environmental noise, your negative vibe, etc. You
+might think that with better engineering we could eliminate all noise
+and interactions, but there’s a paradox:</p>
+<p><em>A perfectly noiseless qubit must be perfectly isolated. But a
+perfectly isolated qubit is also isolated from you.</em></p>
+<p>That’s where my work comes in. In the tech stack of quantum
+computing, my work lives somewhere between quantum software (algorithms)
+and quantum hardware (chip fabrication). Think of it as the <em>firmware
+layer</em>: I study how to control qubits, make them do the right thing,
+even when everything else tries to mess it up.</p>
+<p><strong>Reverse Engineering Schrodinger</strong><br />
+I don’t really know how to solve Schrodinger equation, <span
+class="math inline"><em>d</em><em>U</em>(<em>t</em>) =  − <em>i</em><em>H</em>(<em>t</em>)<em>U</em>(<em>t</em>)<em>d</em><em>t</em></span>,
+especially when <span class="math inline"><em>H</em>(<em>t</em>)</span>
+doesn’t commute with itself at different times - which is almost always
+true under active control. So I do it reversely: write down evolution
+operator <span class="math inline"><em>U</em>(<em>t</em>)</span> first,
+then reconstruct the Hamiltonian:</p>
+<p><span
+class="math display"><em>H</em>(<em>t</em>)<em>d</em><em>t</em> = <em>i</em><em>d</em><em>U</em>(<em>t</em>)<em>U</em><sup>†</sup>(<em>t</em>)</span></p>
+<p>This gives us explicit control protocols with guaranteed behavior —
+even in non-ideal environments.</p>
+<p><strong>Canceling Errors Dynamically</strong><br />
+Real Hamiltonians look like <span
+class="math inline"><em>H</em>(<em>t</em>) = <em>H</em><sub>0</sub>(<em>t</em>) + <em>V</em>(<em>t</em>)</span>,
+where <span class="math inline"><em>V</em>(<em>t</em>)</span> is the
+unwanted couplings — crosstalk, noise, etc. I design <span
+class="math inline"><em>H</em><sub>0</sub>(<em>t</em>)</span> so that
+the net effect of <span
+class="math inline"><em>V</em>(<em>t</em>)</span> cancels itself out. In
+the interaction frame defined by <span
+class="math inline"><em>U</em><sub>0</sub>(<em>t</em>)</span>, it
+becomes <span
+class="math inline"><em>Ṽ</em>(<em>t</em>) = <em>U</em><sub>0</sub><sup>†</sup>(<em>t</em>)<em>V</em>(<em>t</em>)<em>U</em><sub>0</sub>(<em>t</em>)</span>.<br />
+We then engineer things so that the accumulated evolution under this
+interaction Hamiltonian returns to identity:</p>
+<p><span
+class="math display"><em>Ũ</em>(<em>T</em>) = 𝒯exp (−<em>i</em>∫<sub>0</sub><sup><em>T</em></sup><em>Ṽ</em>(<em>t</em>)<em>d</em><em>t</em>) = <em>I</em></span></p>
+<p>Meanwhile, the desired evolution <span
+class="math inline"><em>U</em><sub>0</sub>(<em>T</em>)</span> should
+still implement a logical gate like a <span
+class="math inline"><em>π</em></span>-rotation or something.<br />
+Roughly, this is how I approach qubit control with unwanted stuff in
+it.</p>
+<p><strong>Space-Curve Quantum Control</strong><br />
+Geometry is beautiful, that’s how I see things. Here the erroneus
+evolution, <span class="math inline"><em>Ũ</em>(<em>t</em>)</span>,
+traces a <strong>geometric curve</strong>, if we write it this way:</p>
+<p><span
+class="math display"><em>Ũ</em>(<em>t</em>) = exp (−<em>i</em> <em>R⃗</em>(<em>t</em>)⋅<em>σ⃗</em>)</span></p>
+<p><span class="math inline"><em>R⃗</em>(<em>t</em>)</span> is the curve,
+and the dynamics of the qubit system is actually encoded in it.</p>
+<p>This idea leads to the <strong>Space-Curve Quantum Control
+(SCQC)</strong> framework: control protocols are interpreted as curves
+in geometric space. For weak <span
+class="math inline"><em>V</em>(<em>t</em>)</span>, this is a Euclidean
+space; for strong coupling, it becomes a curved manifold.<br />
+Specifically, for single qubit, or SU(2) generally, the curvature and
+torsion of these curves relate to control fields. It’s pretty fancy if
+you think about it: you can literally draw a curve, I mean with your
+hand, and then read off the curvature and torsion of this curve - you
+get a qubit dynamics, with known error profile!</p>
+<p>By the way, when <span
+class="math inline"><em>V</em>(<em>t</em>)</span> is randomly
+fluctuating, filter-function formalism (FFF) is often used to average
+over fluctuations, and something interesting may show up if you try
+combine FFF and SCQC.</p>
+<p><strong>Circuit Optimization for Dynamical Correction</strong><br />
+Beyond continuous dynamics, I also study circuit-level optimization. The
+idea is just like dynamical decoupling, but the circuit actually does
+something rather than just live longer.<br />
+Each physical gate may carry an error profile. By inserting pairs of
+single-qubit gates and their inverses (a technique called twirling), we
+generate equivalent circuits with different noise responses, with no
+overhead. By exploring the space of these equivalent circuits, we can
+compile noise-resilient versions that perform better on real
+hardware.</p>
+</article></div></main><div class="nav-wrap"><div class="nav"><button class="site-nav"><div class="navicon"></div></button><ul class="nav_items"><li class="nav_item"><a class="nav-page" href="/#about-me"> About</a></li><li class="nav_item"><a class="nav-page" href="/Research/"> Research</a></li><li class="nav_item"><a class="nav-page" href="/Publications/"> Publications</a></li><li class="nav_item"><a class="nav-page" href="/now/"> Now</a></li></ul></div><div class="cd-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></div></div><footer id="page_footer"><div class="footer_wrap"><div class="copyright">&copy;2020 - 2025 by Junkai Zeng</div><div class="theme-info">Powered by <a target="_blank" href="https://hexo.io" rel="nofollow noopener">Hexo</a> & <a target="_blank" href="https://github.com/PhosphorW/hexo-theme-academia" rel="nofollow noopener">Academia Theme</a></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery-pjax@latest/jquery.pjax.min.js"></script><script src="/js/main.js"></script><script src="/js/notebook-embed.js"></script></body></html>
