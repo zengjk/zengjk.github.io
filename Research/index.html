@@ -6,7 +6,7 @@
 <p><strong>Basically this is what I do</strong><br />
 It’s hard to build a quantum computer - qubits rarely do what you want
 them to do.<br />
-Qubits constantly interact with things you didn’t invite: other qubits,
+Qubits constantly interact with things you didn’t invite - other qubits,
 your control hardware, environmental noise, your negative vibe, etc. You
 might think that with better engineering we could eliminate all noise
 and interactions, but there’s a paradox:</p>
@@ -17,18 +17,20 @@ computing, my work lives somewhere between quantum software (algorithms)
 and quantum hardware (chip fabrication). Think of it as the <em>firmware
 layer</em>: I study how to control qubits, make them do the right thing,
 even when everything else tries to mess it up.</p>
-<p><strong>Reverse Engineering Schrodinger</strong><br />
+<p><strong>Reverse Engineering Schrodinger’s Equation</strong><br />
 I don’t really know how to solve Schrodinger equation, <span
 class="math inline"><em>d</em><em>U</em>(<em>t</em>) =  − <em>i</em><em>H</em>(<em>t</em>)<em>U</em>(<em>t</em>)<em>d</em><em>t</em></span>,
 especially when <span class="math inline"><em>H</em>(<em>t</em>)</span>
 doesn’t commute with itself at different times - which is almost always
-true under active control. So I do it reversely: write down evolution
-operator <span class="math inline"><em>U</em>(<em>t</em>)</span> first,
-then reconstruct the Hamiltonian:</p>
+true if you are actively controlling the qubit. So I do it reversely:
+write down evolution operator <span
+class="math inline"><em>U</em>(<em>t</em>)</span> first, then
+reconstruct the Hamiltonian:</p>
 <p><span
-class="math display"><em>H</em>(<em>t</em>)<em>d</em><em>t</em> = <em>i</em><em>d</em><em>U</em>(<em>t</em>)<em>U</em><sup>†</sup>(<em>t</em>)</span></p>
+class="math display"><em>H</em>(<em>t</em>) <em>d</em><em>t</em> = <em>i</em> <em>d</em><em>U</em>(<em>t</em>) <em>U</em><sup>†</sup>(<em>t</em>)</span></p>
 <p>This gives us explicit control protocols with guaranteed behavior —
-even in non-ideal environments.</p>
+even in non-ideal environments. It’s a trick I love and am still working
+on developing new control protocols based on it.</p>
 <p><strong>Canceling Errors Dynamically</strong><br />
 Real Hamiltonians look like <span
 class="math inline"><em>H</em>(<em>t</em>) = <em>H</em><sub>0</sub>(<em>t</em>) + <em>V</em>(<em>t</em>)</span>,
