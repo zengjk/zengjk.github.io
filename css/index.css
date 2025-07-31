@@ -733,11 +733,12 @@ blockquote p {
 .author-avatar {
   display: table-cell;
   vertical-align: top;
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
 }
 .author-avatar img {
-  width: 100%;
+  width: 120%;
   max-width: 110px;
   border-radius: 50%;
 }
@@ -930,7 +931,7 @@ blockquote p {
   }
   .author-avatar {
     display: block;
-    width: auto;
+    width: 100%;
     height: auto;
     text-align: center;
   }
