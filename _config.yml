@@ -7,7 +7,7 @@ title: JK's Website
 subtitle: ''
 description: ''
 keywords:
-author: Junkai Zeng
+author: 'JK. Zeng'
 language: en
 timezone: ''
 
@@ -106,3 +106,6 @@ deploy:
   repo: https://github.com/zengjk/zengjk.github.io
   # example, https://github.com/hexojs/hexojs.github.io
   branch: main
+
+pandoc:
+  mathjax: true
