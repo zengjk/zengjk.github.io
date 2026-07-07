@@ -1,0 +1,34 @@
+---
+title: "Updates"
+#date: 2026-07-06
+categories: [pinned, personal]
+description: "A lightweight log of talks, travel, research, and occasional life notes."
+---
+
+**Upcoming**
+
+- **July:** Attending 全国量子控制会议 (National Symposium on Quantum Control) in Shenyang, China from July 10-12.
+- **August:** Attending AQIS 2026 in Daejeon, Korea from August 24-28.
+
+---
+
+*2026*
+
+- **July:** Gave a talk in Aalborg, Denmark for qCCL 2026. On exactly the same day ten years earlier I was also in Denmark for a workshop. Also prepared my slides using Quarto for the first time.
+- **May:** A short vacation in Tokyo.
+- **March:** Gave a talk and chaired a session in Hong Kong for APSHK 2026.
+- **February:** Went back to Harbin, China for Chinese New Year with family.
+- **January:** 
+    - Traveled to Riga, Latvia for QIP 2026. My first QIP. It was a lot of fun.
+    - I [DJed a NYE party](https://www.instagram.com/p/DS77AQSD2BZ) at CaveCave in Shenzhen.
+
+*2025*
+
+- **October:** I [DJed a Halloween party](https://www.instagram.com/p/DSTrmE2j9Xw) on Halloween night at a secret venue.
+- **September:** 
+    - Went to Hefei for ICEQT, travelled to Suzhou in the middle to give another talk then went back to Hefei again. I do not recommend this type of arrangement.
+    - Turned a vague research idea into a QIP submission in only one month. An intense month but it actually became real.
+- **August:** 
+    - AQIS 2025 in Hong Kong. My first quantum information / highly theoretical conference. I think I like it better than regular physics conferences.
+    - In Guilin for 全国量子物理青年学者研讨会 (National Symposium on Quantum Physics for Young Scholars). Passed through Yangshuo by train and it looked so beautiful. Pity I didn't have time to explore it.
+- **July:** In Chengdu for CQCC 2025. Flight attendants gave me a birthday card. Chengdu is awesome as always.

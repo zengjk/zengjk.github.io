@@ -1,0 +1,59 @@
+---
+title: "Uses"
+date: 2025-07-31
+categories: [personal]
+---
+
+[What is a `/uses` page?](https://uses.tech/)
+
+A list of things I use, tolerate, or somehow rely on almost daily. Some of them I love. Some are just there.
+
+_Last updated: 2025-07-31_
+
+### Tech Machines
+
+- MacBook Pro 14" (M1 Pro)
+- iPhone 16
+- Apple Watch Series 6
+- AirPods Pro 2
+- Apple TV
+
+### Apps and Services
+
+- Apple Mail
+- Apple Calendar
+- TickTick
+- Arc Browser
+- Obsidian
+- Zotero
+- Jupyter Notebooks
+- Mathematica
+- Office 365
+- Cursor
+- Overleaf
+- Bitwarden
+- Dropbox
+- Google One
+- iCloud
+- iTerm2
+- ChatGPT Plus
+- Spotify
+- Netflix
+- Disney+
+- YouTube Premium
+- Balance
+- WeChat
+- Telegram
+- Lark
+
+### Music Production and DJ
+
+I do not make music or DJ often, but when I do, I use these.
+
+- Ableton Live
+- Ableton Push
+- M-Audio Keystation 88 MK3
+- AKAI MIDImix
+- Bose Soundlink Mini II
+- Pioneer DDJ-400
+- Rekordbox

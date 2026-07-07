@@ -1,0 +1,51 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "writings/*.qmd"
+  resources:
+    - CNAME
+
+website:
+  title: "JK. Zeng"
+  site-url: "https://zengjk.github.io"
+  navbar:
+    title: "JK's Website"
+    left:
+      - href: index.qmd
+        text: About
+      - href: writings/updates.qmd
+        text: Updates
+      - href: writings/research.qmd
+        text: Research
+      - href: writings/publications.qmd
+        text: Publications
+      - href: writings.qmd
+        text: Writings
+      - href: writings/now.qmd
+        text: Now
+    right:
+      - icon: envelope
+        href: mailto:entangledpair@protonmail.com
+      - icon: linkedin
+        href: https://www.linkedin.com/in/zengjk/
+      - icon: twitter-x
+        href: https://twitter.com/jaykay_z
+      - icon: mortarboard
+        href: https://scholar.google.com/citations?user=jL7pw-0AAAAJ
+    page-footer:
+      left: "© 2026 JK. Zeng"
+format:
+  html:
+    theme: cosmo
+    toc: false
+    page-layout: article
+    mainfont: "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
+    monofont: "Menlo, Consolas, monospace"
+    code-copy: true
+    code-fold: false
+    anchor-sections: false
+
+execute:
+  freeze: auto

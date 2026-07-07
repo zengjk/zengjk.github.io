@@ -1,0 +1,58 @@
+---
+title: "JK. Zeng"
+#date: 2026-06-17
+#categories: [pinned, personal]
+image: assets/profile_latest.jpeg
+about:
+  id: about-main
+  template: jolla
+  image-width: 10em
+  image-shape: round
+  image-alt: "JK Zeng profile photo"
+  #links:
+  #  - icon: envelope
+      #text: #Email
+  #    href: mailto:entangledpair@protonmail.com
+  #  - icon: mortarboard
+      #text: #Google Scholar
+  #    href: https://scholar.google.com/citations?user=jL7pw-0AAAAJ
+  #  - icon: file-earmark-person
+  #    text: CV
+  #    href: assets/Junkai_CV.pdf
+  #  - icon: linkedin
+      #text: #LinkedIn
+  #    href: https://www.linkedin.com/in/zengjk/
+---
+
+:::{#about-main}
+My day job is doing research in quantum science. I’m interested in the theory of quantum systems: how they evolve, how they interact with their environment, and how general principles from physics, geometry, and computation can help us understand them. If you are interested, you can read about my [research](writings/research.qmd), my [publications](writings/publications.qmd), [what I use](writings/use.qmd), my [professional path](writings/path.qmd), and [what I'm up to now](writings/now.qmd). 
+
+I'm now based in **Shenzhen, China**. Feel free to [email me](mailto:entangledpair@protonmail.com) if you're nearby and want to grab coffee ☕ 
+
+:::
+
+---
+
+**Something else about me**
+
+- I go by "JK" — short for Junkai.
+- I have lived in 9 cities across 4 countries. I count stays of at least one month as “living.”
+- I make music and DJ. For a while, that almost became my full-time job.
+- I listen to all kinds of music, a lot.
+
+---
+
+**Upcoming**
+
+- **July:** Attending 全国量子控制会议 (National Symposium on Quantum Control) in Shenyang, China from July 10-12.
+- **August:** Attending AQIS 2026 in Daejeon, Korea from August 24-28.
+
+---
+
+**Updates**
+
+- **July:** Gave a talk in Aalborg, Denmark for qCCL 2026. On exactly the same day ten years earlier I was also in Denmark for a workshop. Also prepared my slides using Quarto for the first time.
+- **May:** A short vacation in Tokyo.
+- **March:** Gave a talk and chaired a session in Hong Kong for APSHK 2026.
+
+[More updates](writings/updates.qmd)

@@ -1,0 +1,10 @@
+---
+title: "Writings"
+listing:
+  contents: "writings/*.qmd"
+  type: default
+  sort: "date desc"
+  categories: true
+---
+
+Notes, pages, and notebook-like posts.

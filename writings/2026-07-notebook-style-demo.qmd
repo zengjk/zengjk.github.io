@@ -1,0 +1,11 @@
+---
+title: "Notebook-Style Demo"
+date: 2026-07-07
+categories: [research, notebook]
+---
+
+This is a placeholder for notebook-like Quarto writing. It can mix prose, equations, code cells, figures, and references while staying in the same visual system as the rest of the site.
+
+```python
+sum(i * i for i in range(5))
+```

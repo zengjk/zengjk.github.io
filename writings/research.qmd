@@ -1,0 +1,47 @@
+---
+title: "Research"
+date: 2025-07-31
+categories: [research]
+---
+
+**Basically this is what I do**
+
+It is hard to build a quantum computer. Qubits rarely do what you want them to do.
+
+Qubits constantly interact with things you did not invite: other qubits, your control hardware, environmental noise, your negative vibe, etc. You might think that with better engineering we could eliminate all noise and interactions, but there is a paradox:
+
+*A perfectly noiseless qubit must be perfectly isolated. But a perfectly isolated qubit is also isolated from you.*
+
+That is where my work comes in. In the tech stack of quantum computing, my work lives somewhere between quantum software and quantum hardware. Think of it as the firmware layer: I study how to control qubits and make them do the right thing, even when everything else tries to mess it up.
+
+**Reverse Engineering Schrodinger's Equation**
+
+I do not really know how to solve Schrodinger equation, $dU(t) = -i H(t) U(t) dt$, especially when $H(t)$ does not commute with itself at different times. So I do it reversely: write down evolution operator $U(t)$ first, then reconstruct the Hamiltonian:
+
+$$H(t)\,dt = i\, dU(t)\, U^\dagger(t)$$
+
+This gives us explicit control protocols with guaranteed behavior, even in non-ideal environments.
+
+**Canceling Errors Dynamically**
+
+Real Hamiltonians look like $H(t) = H_0(t) + V(t)$, where $V(t)$ is the unwanted couplings: crosstalk, noise, etc. I design $H_0(t)$ so that the net effect of $V(t)$ cancels itself out. In the interaction frame defined by $U_0(t)$, it becomes $\tilde{V}(t) = U_0^\dagger(t) V(t) U_0(t)$.
+
+We then engineer things so that the accumulated evolution under this interaction Hamiltonian returns to identity:
+
+$$\tilde{U}(T) = \mathcal{T} \exp\left(-i \int_0^T \tilde{V}(t) dt \right) = I$$
+
+Meanwhile, the desired evolution $U_0(T)$ should still implement a logical gate.
+
+**Space-Curve Quantum Control**
+
+Geometry is beautiful. Here the erroneous evolution, $\tilde{U}(t)$, traces a geometric curve if we write it this way:
+
+$$\tilde{U}(t) = \exp(-i\, \vec{R}(t) \cdot \vec{\sigma})$$
+
+$\vec{R}(t)$ is the curve, and the dynamics of the qubit system is encoded in it.
+
+This idea leads to the Space-Curve Quantum Control framework: control protocols are interpreted as curves in geometric space. For weak $V(t)$, this is a Euclidean space; for strong coupling, it becomes a curved manifold.
+
+**Circuit Optimization for Dynamical Correction**
+
+Beyond continuous dynamics, I also study circuit-level optimization. Each physical gate may carry an error profile. By inserting pairs of single-qubit gates and their inverses, we generate equivalent circuits with different noise responses and no logical overhead. By exploring this space of equivalent circuits, we can compile noise-resilient versions that perform better on real hardware.
