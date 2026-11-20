@@ -1,43 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://zengjk.github.io/writings/use.html</loc>
+    <loc>https://jaykayz.com/writings/use.html</loc>
     <lastmod>2026-07-07T14:38:32.938Z</lastmod>
   </url>
   <url>
-    <loc>https://zengjk.github.io/writings/path.html</loc>
+    <loc>https://jaykayz.com/writings/path.html</loc>
     <lastmod>2026-07-07T14:53:50.176Z</lastmod>
   </url>
   <url>
-    <loc>https://zengjk.github.io/writings.html</loc>
-    <lastmod>2026-07-07T11:37:03.042Z</lastmod>
+    <loc>https://jaykayz.com/writings.html</loc>
+    <lastmod>2026-11-20T07:41:30.819Z</lastmod>
   </url>
   <url>
-    <loc>https://zengjk.github.io/quarto-demo/writings/updates.html</loc>
-    <lastmod>2026-07-10T05:48:04.299Z</lastmod>
+    <loc>https://jaykayz.com/publications.html</loc>
+    <lastmod>2026-11-20T07:40:02.297Z</lastmod>
   </url>
   <url>
-    <loc>https://zengjk.github.io/now/index.html</loc>
-    <lastmod>2026-09-25T09:24:48.115Z</lastmod>
+    <loc>https://jaykayz.com/index.html</loc>
+    <lastmod>2026-11-20T08:32:04.709Z</lastmod>
   </url>
   <url>
-    <loc>https://zengjk.github.io/index.html</loc>
-    <lastmod>2026-09-25T09:23:15.747Z</lastmod>
+    <loc>https://jaykayz.com/now/index.html</loc>
+    <lastmod>2026-11-20T08:25:40.759Z</lastmod>
   </url>
   <url>
-    <loc>https://zengjk.github.io/publications.html</loc>
-    <lastmod>2026-09-25T09:22:53.033Z</lastmod>
+    <loc>https://jaykayz.com/updates.html</loc>
+    <lastmod>2026-11-20T08:13:01.339Z</lastmod>
   </url>
   <url>
-    <loc>https://zengjk.github.io/updates.html</loc>
-    <lastmod>2026-09-25T09:23:05.896Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zengjk.github.io/writings/2026-07-notebook-style-demo.html</loc>
+    <loc>https://jaykayz.com/writings/2026-07-notebook-style-demo.html</loc>
     <lastmod>2026-07-07T11:58:14.234Z</lastmod>
   </url>
   <url>
-    <loc>https://zengjk.github.io/writings/research.html</loc>
+    <loc>https://jaykayz.com/writings/research.html</loc>
     <lastmod>2026-07-07T11:58:58.891Z</lastmod>
   </url>
 </urlset>
