@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+
+@font-face {
+  font-family: "Departure Mono";
+  src: local("Departure Mono"),
+       url("https://cdn.jsdelivr.net/gh/rektdeckard/departure-mono@v1.500/public/assets/DepartureMono-Regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+:root {
+  --pixel-font: "Departure Mono", "DotGothic16", "Courier New", monospace;
+  --bs-body-font-family: var(--pixel-font);
+  --bs-font-monospace: var(--pixel-font);
+}
+
+body, h1, h2, h3, h4, h5, h6, .navbar-brand, .navbar-nav .nav-link,
+button, input, select, textarea, code, kbd, pre, samp {
+  font-family: var(--pixel-font);
+}
